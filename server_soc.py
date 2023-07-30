@@ -43,7 +43,3 @@ try:
 except Exception as err:
     con.close()
     raise sys.exit(f'Connection was closed because of error: {err}')
-
-
-
-
