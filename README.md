@@ -9,7 +9,7 @@
 7. Run `python3 keylogger_client.py` this will run the client version.
 
 ### How to create .exe file?
-You can use libraries like **auto-py-to-exe** and others!
+You can use libraries like [auto-py-to-exe](https://github.com/brentvollebregt/auto-py-to-exe) and others!
 
 ### Be smart!
 This code DOES NOT promote or encourage any illegal activities! The content in this document is provided solely for educational purposes and to create awareness!
