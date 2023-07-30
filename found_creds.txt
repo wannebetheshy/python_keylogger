@@ -1,0 +1,5 @@
+# Example of output
+
+(!!!) Time and data: ('July 30, 2023', '13:29:16') | IP 127.0.0.1
+my password is hello world, my login is hackworld
+(*) End of data -
